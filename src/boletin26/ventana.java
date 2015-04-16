@@ -9,6 +9,12 @@ import java.awt.Color;
 public class ventana extends javax.swing.JFrame {
 
     int cont = 0;
+    String num1;
+    String num2;
+    String num3;
+    String num4;
+    String num5;
+    String num6;
 
     public ventana() {
         initComponents();
@@ -80,6 +86,12 @@ public class ventana extends javax.swing.JFrame {
         borrar = new javax.swing.JButton();
         aciertos = new javax.swing.JLabel();
         logo = new javax.swing.JPanel();
+        mon1 = new javax.swing.JLabel();
+        mon2 = new javax.swing.JLabel();
+        mon3 = new javax.swing.JLabel();
+        mon4 = new javax.swing.JLabel();
+        mon5 = new javax.swing.JLabel();
+        mon6 = new javax.swing.JLabel();
 
         jPanel2.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED, java.awt.Color.magenta, java.awt.Color.magenta, java.awt.Color.magenta, java.awt.Color.magenta));
 
@@ -123,7 +135,7 @@ public class ventana extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addGap(53, 53, 53)
                 .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel5)
                 .addGap(21, 21, 21))
         );
@@ -831,26 +843,58 @@ public class ventana extends javax.swing.JFrame {
             .addGap(0, 53, Short.MAX_VALUE)
         );
 
+        mon1.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon1.setText("00");
+
+        mon2.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon2.setText("00");
+
+        mon3.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon3.setText("00");
+
+        mon4.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon4.setText("00");
+
+        mon5.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon5.setText("00");
+
+        mon6.setFont(new java.awt.Font("URW Palladio L", 3, 18)); // NOI18N
+        mon6.setText("00");
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(botonAciertos)
+                                .addGap(29, 29, 29)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(borrar)
+                                    .addGroup(jPanel3Layout.createSequentialGroup()
+                                        .addComponent(botonAciertos)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(aciertos, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(83, 83, 83)
+                                .addComponent(mon1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(aciertos, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(borrar))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(mon2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mon3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mon4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mon5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(mon6))))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(0, 286, Short.MAX_VALUE)
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(logo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -863,19 +907,31 @@ public class ventana extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel3Layout.createSequentialGroup()
-                                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(logo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel3))
-                                .addGap(20, 20, 20)
-                                .addComponent(botonAciertos))
-                            .addComponent(aciertos, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(logo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(28, 28, 28)
+                                .addComponent(jLabel2))
+                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                .addGap(26, 26, 26)
+                                .addComponent(jLabel3)))
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(botonAciertos, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(aciertos, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(borrar)
+                        .addGap(62, 62, 62)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(mon1)
+                            .addComponent(mon2)
+                            .addComponent(mon3)
+                            .addComponent(mon4)
+                            .addComponent(mon5)
+                            .addComponent(mon6))
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addContainerGap(102, Short.MAX_VALUE)
@@ -900,9 +956,31 @@ public class ventana extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bot1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bot1ActionPerformed
-        if(cont<7){
-        bot1.setBackground(Color.red);
-        cont++;
+        if (cont < 7) {
+            bot1.setBackground(Color.red);
+            cont++;
+            /*num1="1";
+             mon1.setText(num1);*/
+            if (cont == 1) {
+                num1 = "1";
+                mon1.setText(num1);
+            } else if (cont == 2) {
+                num2 = "1";
+                mon2.setText(num2);
+            } else if (cont == 3) {
+                num3 = "1";
+                mon3.setText(num3);
+            } else if (cont == 4) {
+                num4 = "1";
+                mon4.setText(num4);
+            } else if (cont == 5) {
+                num5 = "1";
+                mon5.setText(num5);
+            } else {
+                num6 = "1";
+                mon6.setText(num6);
+            }
+            bot1.setEnabled(false);
         }
     }//GEN-LAST:event_bot1ActionPerformed
 
@@ -911,13 +989,61 @@ public class ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_botonAciertosActionPerformed
 
     private void bot2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bot2ActionPerformed
-        bot2.setBackground(Color.red);
-        cont++;
+        if (cont < 7) {
+            bot2.setBackground(Color.red);
+            cont++;
+            /*num1="1";
+             mon1.setText(num1);*/
+            if (cont == 1) {
+                num1 = "2";
+                mon1.setText(num1);
+            } else if (cont == 2) {
+                num2 = "2";
+                mon2.setText(num2);
+            } else if (cont == 3) {
+                num3 = "2";
+                mon3.setText(num3);
+            } else if (cont == 4) {
+                num4 = "2";
+                mon4.setText(num4);
+            } else if (cont == 5) {
+                num5 = "2";
+                mon5.setText(num5);
+            } else {
+                num6 = "2";
+                mon6.setText(num6);
+            }
+            bot2.setEnabled(false);
+        }
     }//GEN-LAST:event_bot2ActionPerformed
 
     private void bot3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bot3ActionPerformed
-        bot3.setBackground(Color.red);
-        cont++;
+        if (cont < 7) {
+            bot3.setBackground(Color.red);
+            cont++;
+            /*num1="1";
+             mon1.setText(num1);*/
+            if (cont == 1) {
+                num1 = "3";
+                mon1.setText(num1);
+            } else if (cont == 2) {
+                num2 = "3";
+                mon2.setText(num2);
+            } else if (cont == 3) {
+                num3 = "3";
+                mon3.setText(num3);
+            } else if (cont == 4) {
+                num4 = "3";
+                mon4.setText(num4);
+            } else if (cont == 5) {
+                num5 = "3";
+                mon5.setText(num5);
+            } else {
+                num6 = "3";
+                mon6.setText(num6);
+            }
+            bot3.setEnabled(false);
+        }
     }//GEN-LAST:event_bot3ActionPerformed
 
     private void bot4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bot4ActionPerformed
@@ -1219,5 +1345,11 @@ public class ventana extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel logo;
+    private javax.swing.JLabel mon1;
+    private javax.swing.JLabel mon2;
+    private javax.swing.JLabel mon3;
+    private javax.swing.JLabel mon4;
+    private javax.swing.JLabel mon5;
+    private javax.swing.JLabel mon6;
     // End of variables declaration//GEN-END:variables
 }
