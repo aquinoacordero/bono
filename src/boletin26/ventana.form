@@ -84,84 +84,96 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
-              <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="logo" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="mon1" min="-2" max="-2" attributes="0"/>
-                              <Component id="botonAciertos" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="aciertos" max="32767" attributes="0"/>
                               <Group type="102" alignment="0" attributes="0">
-                                  <Component id="mon2" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="mon3" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="mon4" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="mon5" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                  <Component id="mon6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="mon1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="botonAciertos" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="aciertos" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="mon2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="mon3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="mon4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="mon5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="mon6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Component id="borrar" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="random" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="monB1" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="monB2" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="monB3" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="monB4" min="-2" pref="29" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="monB5" min="-2" pref="29" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
-                      <Component id="borrar" min="-2" max="-2" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="random" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="monB1" min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="monB2" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="monB3" min="-2" pref="29" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="monB4" min="-2" pref="29" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="monB5" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="monB6" min="-2" pref="29" max="-2" attributes="0"/>
-                  <EmptySpace pref="57" max="32767" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace pref="121" max="32767" attributes="0"/>
+                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
                           <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="logo" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="botonAciertos" alignment="1" min="-2" max="-2" attributes="0"/>
                               <Component id="aciertos" alignment="1" min="-2" pref="29" max="-2" attributes="0"/>
@@ -188,10 +200,6 @@
                               <Component id="mon6" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace pref="102" max="32767" attributes="0"/>
-                          <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
@@ -364,29 +372,36 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="bot30" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot39" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot38" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot37" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot36" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot35" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot34" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot33" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot32" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot31" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="bot40" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot49" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot48" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot47" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot46" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot45" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot44" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot43" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot42" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
-                          <Component id="bot41" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="bot30" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot38" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot37" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot36" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot35" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot34" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot33" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot32" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot31" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="bot47" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot46" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot45" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot44" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot43" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot42" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot41" alignment="0" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot48" min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Component id="bot40" min="-2" pref="28" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="bot39" min="-2" pref="28" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot49" min="-2" pref="28" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
@@ -446,7 +461,11 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="bot21" min="-2" pref="28" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot22" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot22" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot32" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot42" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="bot23" min="-2" pref="28" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
@@ -460,49 +479,52 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="bot28" min="-2" pref="28" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot29" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot29" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot49" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot39" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="bot39" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot30" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot40" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot38" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot31" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot41" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot33" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot43" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot37" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot34" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot44" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot36" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot35" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot45" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot35" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot36" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot46" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot34" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot37" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot47" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot33" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot32" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot31" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot30" min="-2" pref="28" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="bot49" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot48" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot47" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot46" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot45" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot44" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot43" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot42" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot41" min="-2" pref="28" max="-2" attributes="0"/>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="bot40" min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bot38" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="bot48" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -1064,7 +1086,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="39"/>
+                <Property name="text" type="java.lang.String" value="30"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1083,7 +1105,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="38"/>
+                <Property name="text" type="java.lang.String" value="31"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1102,7 +1124,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="37"/>
+                <Property name="text" type="java.lang.String" value="32"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1121,7 +1143,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="36"/>
+                <Property name="text" type="java.lang.String" value="33"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1140,7 +1162,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="35"/>
+                <Property name="text" type="java.lang.String" value="34"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1159,7 +1181,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="34"/>
+                <Property name="text" type="java.lang.String" value="35"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1178,7 +1200,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="33"/>
+                <Property name="text" type="java.lang.String" value="36"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1197,7 +1219,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="32"/>
+                <Property name="text" type="java.lang.String" value="37"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1216,7 +1238,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="31"/>
+                <Property name="text" type="java.lang.String" value="38"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1235,7 +1257,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="30"/>
+                <Property name="text" type="java.lang.String" value="39"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1254,7 +1276,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="49"/>
+                <Property name="text" type="java.lang.String" value="40"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1273,7 +1295,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="48"/>
+                <Property name="text" type="java.lang.String" value="41"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1292,7 +1314,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="47"/>
+                <Property name="text" type="java.lang.String" value="42"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1311,7 +1333,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="46"/>
+                <Property name="text" type="java.lang.String" value="43"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1330,7 +1352,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="45"/>
+                <Property name="text" type="java.lang.String" value="44"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1349,7 +1371,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="44"/>
+                <Property name="text" type="java.lang.String" value="45"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1368,7 +1390,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="43"/>
+                <Property name="text" type="java.lang.String" value="46"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1387,7 +1409,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="42"/>
+                <Property name="text" type="java.lang.String" value="47"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1406,7 +1428,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="41"/>
+                <Property name="text" type="java.lang.String" value="48"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1425,7 +1447,7 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Ubuntu" size="14" style="1"/>
                 </Property>
-                <Property name="text" type="java.lang.String" value="40"/>
+                <Property name="text" type="java.lang.String" value="49"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
                     <LineBorder thickness="2">
@@ -1463,26 +1485,6 @@
             </Property>
           </Properties>
         </Component>
-        <Container class="javax.swing.JPanel" name="logo">
-          <Properties>
-            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="0" green="ff" red="27" type="rgb"/>
-            </Property>
-          </Properties>
-
-          <Layout>
-            <DimensionLayout dim="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="55" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
-            <DimensionLayout dim="1">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <EmptySpace min="0" pref="53" max="32767" attributes="0"/>
-              </Group>
-            </DimensionLayout>
-          </Layout>
-        </Container>
         <Component class="javax.swing.JLabel" name="mon1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -1585,6 +1587,13 @@
               <Font name="Ubuntu" size="18" style="3"/>
             </Property>
             <Property name="text" type="java.lang.String" value="00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/img/logo_bonoloto_tr.gif"/>
+            </Property>
           </Properties>
         </Component>
       </SubComponents>
